@@ -29,7 +29,7 @@ h1{
 	float:left;
 	font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
   font-size: 60px;
-	margin: 0 0px;
+	margin: 20px 0px;
   }
 
 #go2menu{
@@ -67,9 +67,6 @@ ul#menu li a:hover {
   background:#005FFF;
 }
 
-.top_pic{width: 1200px;
-         height: 500px;
-        }
 
 #chigi_left{
 	float:left;
@@ -92,7 +89,7 @@ p{font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
 
 
  #chigi_right{
- float:left;
+ float:right;
  width: 600px;
  height: 450px;
  margin: 0px 50px;

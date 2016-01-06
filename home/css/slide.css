@@ -7,9 +7,9 @@
 #photo1,#photo2,#photo3,#photo4 {
     position: absolute;
     float: left;
-    width: 1300px;
+    width: 1200px;
     height: 600px;
-    left:1300px;
+    left:1200px;
     -moz-animation: imgtrans 24s infinite;
     -webkit-animation: imgtrans 24s infinite;
     animation: imgtrans 24s infinite;
@@ -35,8 +35,8 @@
     animation-delay: 18s;
 }
 #frame {
-    width: 1300px;
-    height: 600px;
+    width: 1200px;
+    height: 510px;
     position: relative;
     overflow: hidden;
 }
