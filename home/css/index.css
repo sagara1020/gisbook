@@ -9,14 +9,14 @@ body {
 	text-align:center;		/*IE6以下でセンタリングするための対策*/
 }
 #pagebody {
-	width:1300px; margin:0 auto;	/*内容全体をセンタリング*/
+	width:1200px; margin:0 auto;	/*内容全体をセンタリング*/
 	text-align:left;	/*テキストの配置を左揃えにする*/
 	background-color:#ffffff;		/*内容全体の背景色*/
 }
 
 
 #header{
-	width: 1300px;
+	width: 1200px;
 	height: 100px;
   float:left;
   font-size:30px;
@@ -24,20 +24,20 @@ body {
   margin: auto;
 }
 h1{
-	width: 1300px;
+	width: 1200px;
 	height: 100px;
 	float:left;
 	font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
   font-size: 60px;
-	margin: 0 30px;
+	margin: 0 0px;
   }
 
 #go2menu{
-	width:1300px;
+	width:1200px;
 	height: 150px;
 }
 ul#menu {
-  width:1300px;
+  width:1200px;
   padding:0;
   margin:0;
   list-style-type: none;
@@ -60,14 +60,14 @@ ul#menu li a {
   padding:10px 0;
   text-decoration:none;
   display:block;
-  background:#FE9A2E;
+  background:#5D99FF;
 }
 
 ul#menu li a:hover {
-  background:#191970;
+  background:#005FFF;
 }
 
-.top_pic{width: 1300px;
+.top_pic{width: 1200px;
          height: 500px;
         }
 
@@ -75,7 +75,7 @@ ul#menu li a:hover {
 	float:left;
   width: 600px;
   height: 450px;
-  margin: 0 50px;
+  margin: 0 0px;
   padding: 0;
   overflow: hidden;
   }
@@ -95,7 +95,7 @@ p{font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
  float:left;
  width: 600px;
  height: 450px;
- margin: 0px 0px;
+ margin: 0px 50px;
  padding: 0;
  overflow: hidden;
  }
@@ -114,35 +114,58 @@ p{font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
 
 #osusume{
 	width: 1300px;
-	height: 450px;
+	height: 80px;
 
 }
 
+#osusume1_left{
+ float:left;
+ width: 350px;
+ height: 50px;
+ margin: 0px 60px;
+ }
+
+#osusume1_center{
+ float:left;
+ width: 350px;
+ height: 60px;
+ margin: 0px 0px;
+ }
+
+#osusume1_right{
+ float:left;
+ width: 350px;
+ height: 60px;
+ margin: 0px 50px;
+
+ }
+
+
  #osusume_left{
 	float:left;
-	width: 350px;
-	height: 200px;
+	width: 340px;
+	height: 300px;
 	margin: 0px 30px;
 	}
 
  #osusume_center{
 	float:left;
-	width: 350px;
-	height: 200px;
+	width: 340px;
+	height: 300px;
 	margin: 0px 30px;
 	}
 
  #osusume_right{
 	float:left;
-	width: 350px;
-	height: 200px;
+	width: 340px;
+	height: 300px;
 	margin: 0px 30px;
 
 	}
 
 .setsumei{
 	float:left;
-	width: 350px;
+	width: 340px;
 	height: 60px;
 	font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
   font-size: 40px;
@@ -150,55 +173,78 @@ p{font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
 }
 .shosai{
 	float:left;
-	width: 350px;
-	height: 30px;
 	font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
   font-size: 25px;
+	margin: 15px 0px;
 }
- .go2 img{
- float:left;
- width: 240px;
- height: 60px;
- margin: 0px 0px;
- padding: 10px;
- overflow: hidden;
- }
- 
+
+.go2 {
+	  float:left;
+    width:220px;
+    font-size:30px;
+		font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+		margin: 0px 50px;
+    color:#fff;
+    background-color:#5D99FF;
+    border-radius:25px;
+}
+
+.go2:hover {
+  background:#005FFF;
+}
+
 #gis_note{
-	width: 1300px;
-	height: 600px;
+	width: 1200px;
+	height: 1000px;
  }
 #note_right{
 	float:left;
-	width: 350px;
-	height: 200px;
+	width: 340px;
+	height: 400px;
 	margin: 0px 30px;
 }
 
 #note_center{
 	float:left;
-	width: 350px;
-	height: 200px;
+	width: 340px;
+	height: 400px;
 	margin: 0px 30px;
 }
 
 #note_left{
 	float:left;
-	width: 350px;
-	height: 200px;
+	width: 340px;
+	height: 400px;
 	margin: 0px 30px;
 }
 
 .go2note{
 	float:left;
-  margin: 0px 30px;
-  padding: 10px;
-  overflow: hidden;
+	width:200px;
+	font-size:35px;
+	font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	text-align:center;
+	padding:8px 0 10px;
+	margin: 0px 50px;
+	color:#fff;
+	background-color:#5D99FF;
+	border-radius:25px;
+}
+.go2note:hover {
+  background:#005FFF;
 }
 
 #toiawase{
-	width: 1300px;
-	height: 100px;
+	width: 1200px;
+	height: 200px;
 }
 #otoiawase{
 	font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN';
